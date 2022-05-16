@@ -111,7 +111,8 @@ h1 {
 #slide3:checked ~ .slider > .slide3,
 #slide4:checked ~ .slider > .slide4,
 #slide5:checked ~ .slider > .slide5,
-#slide6:checked ~ .slider > .slide6 {
+#slide6:checked ~ .slider > .slide6,
+#slide7:checked ~ .slider > .slide7 {
 	opacity: 1;
 	z-index: 1;
 }
@@ -146,6 +147,11 @@ h1 {
     background-size: 100%;
 }
 
+.slide7 { 
+    background: url(mems/slide7.png) no-repeat center;
+    background-size: 100%;
+}
+
 .descriptor{
     display: flex;
     justify-content: flex-start;
@@ -170,7 +176,8 @@ h1 {
 #slide3:checked ~ .descriptor > .desc3,
 #slide4:checked ~ .descriptor > .desc4,
 #slide5:checked ~ .descriptor > .desc5,
-#slide6:checked ~ .descriptor > .desc6 {
+#slide6:checked ~ .descriptor > .desc6,
+#slide7:checked ~ .descriptor > .desc7 {
 	opacity: 1;
 	z-index: 1;
 }
@@ -206,7 +213,8 @@ label:hover,
 #slide3:checked ~ .controls label:nth-of-type(3),
 #slide4:checked ~ .controls label:nth-of-type(4),
 #slide5:checked ~ .controls label:nth-of-type(5),
-#slide6:checked ~ .controls label:nth-of-type(6)  {
+#slide6:checked ~ .controls label:nth-of-type(6),
+#slide6:checked ~ .controls label:nth-of-type(7)  {
 	background: transparent;
 }
 
@@ -221,6 +229,8 @@ label:after {
 }
 
 /* media queries */
+
+
 
 
 
