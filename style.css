@@ -214,7 +214,7 @@ label:hover,
 #slide4:checked ~ .controls label:nth-of-type(4),
 #slide5:checked ~ .controls label:nth-of-type(5),
 #slide6:checked ~ .controls label:nth-of-type(6),
-#slide6:checked ~ .controls label:nth-of-type(7)  {
+#slide7:checked ~ .controls label:nth-of-type(7)  {
 	background: transparent;
 }
 
